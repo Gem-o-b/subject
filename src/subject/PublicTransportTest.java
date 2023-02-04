@@ -4,7 +4,7 @@ public class PublicTransportTest {
     public static void main(String[] args) {
         Bus bus1 = new Bus();
         Bus bus2 = new Bus();
-        bus1.takeCar(2);
+        bus1.takeCar(2 );
         bus1.setOil(-50);
         bus1.setState();
         bus1.setOil(10);
